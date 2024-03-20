@@ -760,8 +760,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animalPrefab:
-  - {fileID: 4108169891663242376, guid: afb46280716c73f4f9655ce6fac94964, type: 3}
   - {fileID: 698764077080003328, guid: fe3949a73e2281d45b3ad00ba809358a, type: 3}
+  - {fileID: 4108169891663242376, guid: afb46280716c73f4f9655ce6fac94964, type: 3}
   - {fileID: 2899312122823798672, guid: b00f4f0e588d024419ceb337e32d0b40, type: 3}
 --- !u!4 &1933335861
 Transform:
