@@ -437,6 +437,8 @@ GameObject:
   - component: {fileID: 8868189551820360308}
   - component: {fileID: 1418283294295530027}
   - component: {fileID: 1263710640522097065}
+  - component: {fileID: -4784139028151484022}
+  - component: {fileID: -8685198439915889893}
   m_Layer: 0
   m_Name: Animal_Moose_01
   m_TagString: Untagged
@@ -515,6 +517,54 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3cc96f6b30bf7334aa5848d816da4ff6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &-4784139028151484022
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2899312122823798672}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.12440847, y: 0.50855523, z: 0.44148484}
+  m_Center: {x: 0.009010371, y: 0.20849884, z: 0.072353944}
+--- !u!54 &-8685198439915889893
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2899312122823798672}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &4410040818806356939
 GameObject:
   m_ObjectHideFlags: 0

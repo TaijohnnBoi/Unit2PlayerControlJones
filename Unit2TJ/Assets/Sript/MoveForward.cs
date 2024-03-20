@@ -17,4 +17,11 @@ public class MoveForward : MonoBehaviour
     {
         transform.Translate(Vector3.forward * Time.deltaTime * speed); 
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("AppleKiller"));
+        Destroy(gameObject);
+        Destroy(other.gameObject);
+    }
 }
